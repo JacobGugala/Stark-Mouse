@@ -1,0 +1,11 @@
+mkdir build
+cd build
+cmake .. --fresh
+
+*loop*
+cmake --build . --config Release
+./Release/Stark-Mouse.exe
+*endloop*
+
+
+If things don't work try adding to ctr-shift-p c/c++ edit configurations
